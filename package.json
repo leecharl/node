@@ -1,23 +1,24 @@
 {
-  "name": "assignment_2",
+  "name": "node",
   "version": "1.0.0",
-  "engines": {
-    "node": "6.11.0"
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "request": "^2.88.0"
   },
-  "description": "Week 9 for CS313 using Node.js",
-  "main": "index.js",
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Aaron Lee",
-  "license": "ISC",
-  "dependencies": {
-    "ejs": "^2.5.6",
-    "express": "^4.15.3"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leecharl/node.git"
   },
-  "keywords": [
-    "node",
-    "heroku",
-    "express"
-  ]
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leecharl/node/issues"
+  },
+  "homepage": "https://github.com/leecharl/node#readme"
 }
