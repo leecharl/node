@@ -1,24 +1,21 @@
 {
-  "name": "node",
+  "name": "web-server",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
-  "dependencies": {
-    "request": "^2.88.0"
-  },
-  "devDependencies": {},
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js,hbs"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/leecharl/node.git"
-  },
-  "keywords": [],
+  "keywords": [], 
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/leecharl/node/issues"
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.6",
+    "request": "^2.88.0"
   },
-  "homepage": "https://github.com/leecharl/node#readme"
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
 }
