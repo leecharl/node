@@ -16,7 +16,7 @@ const geocode = (address, callback) => {
                 location: body.features[0].place_name
             })
         }
-    })
+    }) 
 }
 
 module.exports = geocode
